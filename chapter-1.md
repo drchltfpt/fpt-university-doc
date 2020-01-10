@@ -1,115 +1,194 @@
-# ACCOUNTING IN BUSINESS (Service company)
-> __TỔNG QUAN VỀ NGUYÊN LÝ KẾ TOÁN TRONG DN DỊCH VỤ__
-## DEFINITION OF ACCOUNTING
-> An __information__ and measurement system  
-> __Indentifies, records and communicates__ information about an organization's business activities to ___users___
-- ___Indentify___ (Xác định)
-> Select transactions and events
-- ___Recording___ (Ghi chép)
-> Input, measure and classify
-- ___Communicating___ (Truyền đạt thông tin)
-> Prepare, analyze and interpret
-## USER OF ACCOUNTING INFORMATION
-___External Users___
-- Lenders
-- Shareholders (Người sở hữu 1 phần cty)
-- Governments (Thu tiền thuế, phạt)
-- Consumer Groups
-- External Auditors (Kiểm toán viên - Đơn vị độc lập kiểm tra sổ sách cho công ty)
-- Customers
+# INTRODUCTION TO SOFTWARE ARCHITECTURE
 
-___Internal Users___
-- Managers
-- Officers/Directors
-- Internal Auditors
-- Sales Staff
-- Budget Officers
-- Controllers
-> Accounting information (*) helps people make __better decisions__
+## Architecture
+> Architecture is both the process and product of planning, designing, and construction, usually of buildings and other physical structures (Cấu trúc của sản phẩm, công trình vật lý)
 
-__Báo cáo tài chính__: Gồm 3 loại:
-- Income Statement
-  > Revenue - Expense = Profit/Loss
-- Balance Sheet (Bảng cân đối kế toán)
-  > Assets (tài sản) = Liabilities (vốn nợ) + Equity (vốn chủ)
-- Cashflow Statement (Báo cáo lưu chuyển tiền tệ)
+__In software__  
+#Nestcape Navigator  
+#Browser  
+#Google Chrome  
+#Internet Explorer  
+#ChromeOS  
 
-__Accounting in Business__
-> Không tính vốn cá nhân
+## Software Architecture
 
-## PRINCIPLES AND ASUMPTIONS OF ACCOUNTING
-___Revenue Recorgnation Principle___
-> Nguyên tắc ghi nhận doanh thu
-1. Recognize revenue when it is earned (những công việc đã hoàn thành hoặc sản phẩm đã chuyển giao đã thu được tiền hoặc chưa)
-2. Proceeds need not be in cash
-3. Measure revenue by cash received plus cash value of items received (xác định được doanh thu được bao nhiêu tiền dù chưa có tiền ngay)
-> Doanh thu phải đến từ các hoạt động kinh doanh của công ty (thu nhập ổn định)  
-> (Các phần bán cổ phần công ty không tính vào doanh thu -> gọi là thu nhập bất thường)
+___IEEE___ stands for ___Institute of Electrical and Electronics Engineers___ (Định nghĩa chuẩn)
+> Thiết kế là cách tổ chức cơ bản
 
-___Matching Principle___
-> Nguyên tắc phù hợp  
-> Revenue is earned  
-> A company must record its expenses incurred to generate the revenue reported
+__Acrchitects__ use ___various design strategies___ in software construction:
+- To divide and conquer the complexities of a problem domain  
+#Micro service
 
-___Cost Principle = Historical cost___
-> Nguyên tắc Giá gốc hay Giá vốn lịch sử  
-> Accounting information is based on actual cost. Actual cost is considered objective
-___Full Disclosure Principle___
-> Nguyên tắc công khai
-> Tất cả mọi thông tin bên trong báo cáo tài chính quan trọng phải được công bố (chung chung)
+___SAD is important___  
+___A good software design___
+- __Reduces risks__ in software production, 
+- Coordinates development teams to work together orderly
+- Makes the system traceable for implementation and testing
+- Leads to software products have higher quality attributes
 
-## ACCRUAL BASIS VS CASH BASIS
-> __CƠ SỞ KT DỒN TÍCH VÀ CƠ SỞ KT TIỀN MẶT__
-___Accrual Basis___
-> Cơ sở dồn tích
+___Quy trình phát triển phần mềm___  
+__Analysis__  
+->  
+__SRS__
+- Functional
+- Non-functional
 
-___Cash Basis___
-> Cơ sở tiền mặt (Not GAAP)
+->  
+__Design__  
+->  
+__RDS__  
+- Component
+- Module in each components
+- Detailed information
 
-## PRINCIPLES AND ASSUMPTIONS OF ACCOUTING
-___Going-Concern Assumption___
-> Giả định hoạt động liên tục  
-> Reflect assumption that the business will continue operatiing instead of being closed or sold  
-> VD: Nếu công ty sắp nghỉ hoạt động thì các sản phẩm không thể tính giá như công ty vẫn hoạt động liên tục
+->  
+__Implement__
 
-___Monetary Unit Assumption___
-> Giả định Thước đo tiền tệ  
-> Express transactions and events in monetary, or money, units
+___Architects Role___
+> ___Sample outline of SDD (IEEE Std 1016)___  
+> - __Design overview, purpose, scope__  
+> - __Decomposition description__  
+>   - Module
+>   - Data
+>   - Process
+> - __Dependency and connection description__
+>   - between modules, data, processes
+> - Attributes
+> - User interface description
+> - Detailed design
+>   - module and data
 
-___Business Entity Assumption___
-> Giả định thực thể kinh doanh  
+___Software design stage can be split into 2 steps___
+- __Architectural design step__  
+    - __we describe__
+    > - user accessible components
+    > - the interconnections among them
+      > - visible to stakeholders
+- __Detailed design step__
+    - __we specify__
+    > - The internal details of each component
+    > - Might introduce new invisible components to the stakeholders
 
-___Time Period Assumption___
-> Giả định kỳ kế toán  
-> Chia nhỏ các báo cáo tài chính của công ty  
+> Công việc phải làm là phải mô tả được cấu trúc hệ thống
 
-## THE ACCOUNTING EQUATION
-> __PHƯƠNG TRÌNH CÂN BẰNG KẾ TOÁN__  
-> Accounting Equation  
-> __Assets = Liabilities + Owner's Equity__
+___Architectural Style___
+- Abstracts the common properties of a family of similar designs
+- Also known as "architecture pattern"
+> Cũng giống như thiết kế xậy dựng (Á Đông, Châu Âu) thì software cũng thế
+- __Key components__
+> - Elements
+>   - that perform functions required by a system
+> - Connectors
+>   - that enable communication, coordination, and cooperation among elemnts
+> - Constraints
+>   - that define how elements can be integrated to form the system
+> - Attributes
+>   - that describe the advantages and disadvantages of the choosen structure
+- __Các chương sau sẽ được giới thiệu hơn 20 kiểu kiến trúc từ cổ đến nay__
 
-__Accounts receivable__: Khoản phải thu  
-__Merchaindise inventory__: Hàng tồn kho  
+___Architecture Level___
+__Enterprise Architecture__
+> Những quyết định thay đổi về kiến trúc sẽ có sự ảnh hưởng rất lớn
 
-## OWNER'S CAPITAL (OR EQUITY)
-> __VỐN CHỦ SỞ HỮU__
+__Segment Architecture__  
+> Những thay đổi kiến trúc sẽ ảnh hưởng chung level nhánh
+__Solution Architecture__
 
-> __Equity__ = Contributed Capital(phần góp vào ban đầu) + Retained Earnings(lợi nhuận tích lũy được qua cá năm kinh doanh)  
-> = (Owner, Capital - Owner, Withdrawal) (vốn góp rút ra) + Revenues(Doanh thu) - Expenses(Chi ra)
+___Software architect___
+__Sự quan tâm của từng nhóm người dùng:__
+- Developer Organization Management Stakeholder
+  > Low cost, Keeping people employed
+- Marketing Stakeholder
+  > Neat features, short time, to market, low cost, parity with competing products
+- End-User Stakeholder (nhóm chính)
+  > Behavior, performance, security, reliability, usablitiy (không đáp ứng được thì coi như sản phẩm vứt đi)
+- Maintenance Organization Stakeholder
+  > Modifiability
+- Customer Stakeholder (người mua)
+  > Low cost, timely delivery, not changed very often
+- Architect
+  > Căng đấy
 
->__TÀI SẢN__
+___Software architect's tasks___
+__Perform__
+- System static paritioning (phân chia hệ thống)
+> - System decomposition into sub-systems andcommunications between sub-systems
+- Establish dynamic control relationships (thiết lập các điều khiển động)
+> - between different sub-systems interms of
+>   - Data flow
+>   - Control flow orchestration
+>   - Message dispathching
+- Consider and evaluate (Có nhiều hơn 1 giải pháp và phân tích cái lợi hại của từng giải pháp)
+- Perform trade-off analysis on quality attributes and other non-functional requirements (linh hoạt phải đưa ra sự đánh đổi dựa trên tình hình, biết phân tích tình huống)
+> Trong quá trình design có rất nhiều câu hỏi -> đưa ra câu hỏi và trả lời hết  
+> Kiến trúc sư và người kinh doanh có cái nhìn khác nhau, học thêm kinh doanh thì sẽ linh hoạt, có cái nhìn đa chiều hơn
 
-> __Assets = Liabilities + Equity__  
-> __= Liabilities + Owner, Capital - Owner, Withdrawal + Revenues - Expenses__
+___Quality Attributes___
+- Are indentified in the requirement analysis process
+- Are closely related to architectural styles
+- An architectural style encapsulates tradeoffs among many conflicting quality attributes
+> Ưu tiên yêu cầu chất lượng, yêu cầu phi chức năng -> nó sẽ quyết định những cái sau
 
-## THE ACCOUNTING EQUATION
-__Converticle bonds__: Trái phiếu chuyển đổi
-> __PHƯƠNG TRÌNH CÂN BẰNG KẾ TOÁN__  
-> ~Phương trình kế toán luôn luôn ở trạng thái cân bằng~  
-> Purchase (v) Mua  
-> Purchase on credit, on account: mua chịu  
-> Supplies (n) Công cụ, dụng cụ  
-> Equipment (n) trang thiết bị  
-> Pay (v) Trả tiền  
-> Account payable: Khoản phải trả ~ khoản nợ (sẽ phải trả nhưng chưa phải trả)  
-> Services company: công ty tư vấn dịch vụ  
+- Cách phân loại về đặc điểm chất lượng phần mềm:
+  > __Classifications__:
+    > - Implementation attributes
+    > - Runtime attributes
+    > - Business attributes
+
+__Implementation attributes:__
+- __Interoperability(Tính tương hỗ)__: 
+  - Hỗ trợ gọi, sử dụng được bởi mọi nền tảng, các ứng dụng khác dễ dàng truy xuất vào để sử dụng dịch vụ.
+  - It needs loose dependency of infrastructure (Ít phụ thuộc vào nền tảng)
+  - Ex: Web services
+- __Maintainability & extensibility (Thêm, mở rộng về mặt chức năng)__
+  - Refers to the ability to modify the system and extend it conveniently
+- __Testability (Khả năng kiểm thử)__
+  - Refers to the degree
+- __Portability (Tính cơ động)__
+  - Refers to the level of independence of the system on software and hardware platforms (Phản ánh mức độ độc lập của phần mềm với các nền tảng phần cứng)
+    - Systems developed using high-level programming languages usually have good portability
+
+- __Scalability (Tính mở rộng)__
+  - Refers to the ability to adapt to an increase of user requests volumn (tính toán số lượng người dùng mở rộng trong tương lai, tránh nút cổ chai)  
+- __Flexibility (Tính linh hoạt)__
+  - Hệ thống dễ dàng sửa đổi để đáp ứng những sự thay đổi trong tương lai
+  __#Component base__  
+  __#Service Oriented__  
+- __Availability (Tính sẵn sàng)__
+  - Refers to the ability of a system to be avaiable 27x7 (Khả năng cung cấp dịch vụ 24/7) => Lưu ý khả năng __dễ bị tấn công gây thiệt hại__
+  - Tạo các phương án backup dễ dàng thay thế khi hệ thống bị tấn công, duy trì 24/7
+- __Security (Tính bảo mật)__
+  - Refers to the abiluty to cope with malicious attacks from outside or inside of the system (Khả năng chống lại tấn công từ bên ngoài cũng như bên trong)  
+  __#Firewall__  
+  __#SSL__  
+  __#Encryption__  
+  __#Key logger__  
+- __Performance (Hiệu năng)__
+  - Refer to increasing efficiencies such as
+    - Response time
+    - Throughput
+    - Generally resource utilizaiton
+- __Usability (Tính tiện dụng)__
+  - Refers to the level of "satisfaction" from a human perspective in using the system (Mức độ thỏa mãn của người dùng)
+    - Includes:
+      - completeness
+      - correctness
+      - compatibility
+      - more critically user friendliness
+
+__Business attributes__
+- __Time to market__
+  > Refers to the time it takes from requirement analysis to the date product is released
+- __Cost__
+  - Building
+  - Maintaining
+  - Operating the system
+- __Lifetime__  
+  __#ransomware__
+
+__Trade-off analysis__
+- __Tradeoff between space and time__
+  - Ex: to increase the time efficiency of a __#hash table__ means to decrease its space efficiency
+  > Được cái lọ mất cái chai
+- __Tradeoff between reliability and performance__
+- __Tradeoff between scalability and performance__
