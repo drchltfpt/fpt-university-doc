@@ -31,13 +31,14 @@ __Báo cáo tài chính__: Gồm 3 loại:
 - Income Statement
   > Revenue - Expense = Profit/Loss
 - Balance Sheet (Bảng cân đối kế toán)
-  > Assets (tài sản) = Liabilities (vốn nợ) + Equity (vốn chủ)
-- Cashflow Statement (Báo cáo lưu chuyển tiền tệ)
+  > Assets (tài sản) = Liabilities (vốn nợ) + Equity (vốn chủ)  
+  > Nợ là nguồn gốc của tài sản  
+- Cashflow Statement (Báo cáo lưu chuyển tiền tệ)  
 
 __Accounting in Business__
 > Không tính vốn cá nhân
 
-## PRINCIPLES AND ASUMPTIONS OF ACCOUNTING
+## PRINCIPLES AND ASUMPTIONS OF ACCOUNTING (*)
 ___Revenue Recorgnation Principle___
 > Nguyên tắc ghi nhận doanh thu
 1. Recognize revenue when it is earned (những công việc đã hoàn thành hoặc sản phẩm đã chuyển giao đã thu được tiền hoặc chưa)
@@ -66,7 +67,7 @@ ___Accrual Basis___
 ___Cash Basis___
 > Cơ sở tiền mặt (Not GAAP)
 
-## PRINCIPLES AND ASSUMPTIONS OF ACCOUTING
+## PRINCIPLES AND ASSUMPTIONS OF ACCOUTING (*)
 ___Going-Concern Assumption___
 > Giả định hoạt động liên tục  
 > Reflect assumption that the business will continue operatiing instead of being closed or sold  
@@ -111,5 +112,7 @@ __Converticle bonds__: Trái phiếu chuyển đổi
 > Supplies (n) Công cụ, dụng cụ  
 > Equipment (n) trang thiết bị  
 > Pay (v) Trả tiền  
-> Account payable: Khoản phải trả ~ khoản nợ (sẽ phải trả nhưng chưa phải trả)  
+> Account payable: Khoản phải trả ~ khoản nợ (sẽ phải trả nhưng chưa phải trả) và khi trả không cần thêm lãi  
+> Account receivable: Khoản phải thu (sẽ thu được tiền, KH nợ) quá hạn nợ lâu thì thành nợ xấu  
 > Services company: công ty tư vấn dịch vụ  
+> Net income: lãi ròng
