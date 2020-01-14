@@ -192,3 +192,30 @@ __Trade-off analysis__
   > Được cái lọ mất cái chai
 - __Tradeoff between reliability and performance__
 - __Tradeoff between scalability and performance__
+
+___Design Guidelines___
+> Think of __WHAT__ to do before thinking of __HOW__ to do it
+  > - Functional and non-functional requirements
+  > - Using an abstract architectural design
+> Think of __ABSTRACT__ design before thinking of __CONCRETE__ design
+  > Thiết kế kiến trúc và thiết kế chi tiết rành mạch rõ ràng
+> Think of __non-functional__ requirements __EARLIER__
+  > - *we should consider non-functional requirements as well*
+  > - *Communicates with stakeholders* and document their preferences of quality attributes
+  > - *It is not possible to find a design that meets all quality attributes*
+  > - Balance the quality attributes
+> Think of software __reusability__ and __extensibility__ as much as possible
+  > - New functionalities *will be added after they are desployed*
+  > - How to *reuse existing software components*
+> __Tolerate refinement__ of design (không nên quá cầu toàn)
+  > - *Never expect* to have software design completely perfect *within one step*
+  > - We may need to use *prototyping and iteration* to refine the software design
+  > - *Avoid ambiguous design and over-detailed design*
+> Try to __PROMOTE high conhesion__ within each element and __loose-coupling__ between elements
+  > - A *highly conherent sub-system*
+  > - Each architectural style should show a very *clear division*
+
+___SUMMARY___
+- Software architectural design
+  - has emerged as an important part of software development
+- 
