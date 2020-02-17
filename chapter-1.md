@@ -116,3 +116,18 @@ __Converticle bonds__: Trái phiếu chuyển đổi
 > Account receivable: Khoản phải thu (sẽ thu được tiền, KH nợ) quá hạn nợ lâu thì thành nợ xấu  
 > Services company: công ty tư vấn dịch vụ  
 > Net income: lãi ròng
+
+__Làm công việc kinh doanh__
+> - Dịch vụ
+> - Thương mại
+> - Sản xuất
+> => Revenue
+__Các chi phí phải trả phục vụ kinh doanh__ => Expenses
+
+__Các trương hợp: pay cash => tiền giảm__
+> - Tăng tài sản (Assets)
+    > - Đầu tư
+    > - Cho kinh doanh
+> - Trả nợ gốc (Liabilities)
+> - Rút vốn chủ sở hữu (Withdrawal)
+> - Trả tiền cho chi phí (Expenses)
